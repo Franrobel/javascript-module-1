@@ -1,18 +1,21 @@
 // There are syntax errors in this code - can you fix it to pass the tests?
 
-function addNumbers(a b c) {
+function addNumbers(a, b, c) {
     return a + b + c;
 }
-
-function introduceMe(name, age)
-return "Hello, my name is " + name "and I am " age + "years old";
+console.log(addNumbers(3,11,10));
+//
+function introduceMe(name, age){
+return "Hello, my name is " + name + " and I am " + age + " years old";
+}
+console.log(introduceMe('Jorge', 29));
 
 function getTotal(a, b) {
-    total = a ++ b;
-
+    total = a + b;
     // Use string interpolation here
-    return "The total is %{total}"
+    return `The total is ${total}`;
 }
+console.log("The total is ${total}");
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.

@@ -5,7 +5,7 @@ var percentageStudents = (numberOfStudents*100)/quantity;
 var percentageMentors = (numberOfMentors*100)/quantity;
 const perStudents = Math.round(percentageStudents);
 const perMentors = Math.round(percentageMentors);
-console.log(perStudents);
-console.log(perMentors);
+console.log('Total of Students: ' + perStudents);
+console.log('Total of Mentors:' + perMentors);
 
 

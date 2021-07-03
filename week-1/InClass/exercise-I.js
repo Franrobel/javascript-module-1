@@ -1,15 +1,3 @@
-function getAgeInDays(age) {
-  return age * 365;
-}
-
-function createGreeting(name, age) {
-  const ageInDays = getAgeInDays(age);
-  const message =
-    "My Name is " + "juana" + " and I was born over " + ageInDays + " days ago!";
-  return message;
-}
-
-console.log(createGreeting(name, 2));
 
 //Using the answer from step 1, write a function that takes someone's 
 //name and age as input and returns a string that states the person's 
