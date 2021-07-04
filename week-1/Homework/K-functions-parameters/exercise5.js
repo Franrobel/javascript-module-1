@@ -1,6 +1,8 @@
 
 function greetingFromDaniel (name, age){
-    const greeting = 'Hello my name is ' + name + ' and I am ' + age + ' years old.';
-    return greeting; 
+    return "Hello my name is " + name + " and I am " + age + " years old."; 
 }
-console.log(greetingFromDaniel('Daniel', 30));
+const greeting = greetingFromDaniel("Daniel", 30);
+
+
+console.log(greeting);
