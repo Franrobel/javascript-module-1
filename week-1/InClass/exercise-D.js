@@ -1,6 +1,6 @@
 
 const colors = ("blue", "yellow");
-const colorsType = typeof colors;
+const messageType = typeof colors;
 
 console.log(messageType); 
 

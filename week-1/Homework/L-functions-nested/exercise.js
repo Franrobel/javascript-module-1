@@ -12,6 +12,7 @@ console.log(mentorUc("daniel"));
 
 function greetingMentor (mentor, greeting){
     var greeting = (greeting + " " + mentor).toUpperCase();
+    
     return greeting;
 }
 console.log(greetingMentor("daniel", "hello"));
