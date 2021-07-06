@@ -20,12 +20,12 @@ console.log(convertToUSD(32));
   99% of the £ to BRL.
 */
 
-function convertToBRL(price, fee) {
-  var bzMarket = (price * 5.7) * fee;
+function convertToBRL(price) {
+  var bzMarket = (price * 5.7) * 0.99;
   return bzMarket
   
 }
-console.log(convertToBRL(30, 0.99));
+console.log(convertToBRL(30), 169.29);
 const { X509Certificate } = require('crypto');
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
