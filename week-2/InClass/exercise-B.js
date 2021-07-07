@@ -1,9 +1,11 @@
 function boolChecker(bool) {
-  if (typeof bool === ) {
-    return "You've given me a bool, thanks!";
+  if (typeof bool === "boolean") /* if the parameter is a boolean*/{
+    return "You've given me a bool, thanks!"; /*if it is a boolean while give me this result*/
   }
 
-  return "No bool, not cool.";
+  return "No bool, not cool.";/* if it is not boolean it will give me this*/
 }
 
-boolChecker(true);
+console.log(boolChecker(true)); /*the parameter is a boolean (true or false) so it will give the first result*/
+
+
