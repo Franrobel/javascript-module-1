@@ -1,14 +1,22 @@
-function exponential(number) {
-  for (let number = 6; number > 5; number++) {
-  return number * number;
-  }
-}
-
+let number = 6;
 function isEven(number) {
   return number % 2 === 0;
  }  
+ while (number >= 6){  
+ console.log(number);
+  number += 1; 
+}
+function exponential(number) {
+  for (let number = 5; number <= 20; number++) {
+  return number * number;
+  }
 
-console.log("The exponencial of " + (isEven()) + " is " + (exponential(6)));
+}
+
+
+console.log("The exponencial of " + number + " is " + (exponential(5)));
+
+
 
 /*for (let i = 0; i < 100; i++) {
   console.log("The count is: " + counter);
