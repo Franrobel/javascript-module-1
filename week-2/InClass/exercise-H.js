@@ -8,18 +8,16 @@ function isEven(num) {
   return num % 2 === 0;
 }
 
-function numAndExponential(num){
-  if (isEven(num)){
-    for (let num = 5; num <= 20; num++){
-      return num * num;
+function numAndExponential(){
+    for (let num = 5; num < 20; num++){
+      if (isEven(num)){
+          console.log("The exponencial of " + num + " is " + (exponential(num)));
+        }
     }
 
   }
-  console.log("The exponencial of " + num + " is " + (numAndExponential()));
 
-} 
-
-numAndExponential(5);
+numAndExponential();
 
 
 
