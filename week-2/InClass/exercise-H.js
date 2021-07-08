@@ -1,24 +1,31 @@
-let number = 6;
-function isEven(number) {
-  return number % 2 === 0;
- }  
- while (number >= 6){  
- console.log(number);
-  number += 1; 
+
+
+function exponential(num) {
+  return num * num;
 }
-function exponential(number) {
-  for (let number = 5; number <= 20; number++) {
-  return number * number;
+
+function isEven(num) {
+  return num % 2 === 0;
+}
+
+function numAndExponential(num){
+  if (isEven(num)){
+    for (let num = 5; num <= 20; num++){
+      return num * num;
+    }
+
   }
+  console.log("The exponencial of " + num + " is " + (numAndExponential()));
 
-}
+} 
+
+numAndExponential(5);
 
 
-console.log("The exponencial of " + number + " is " + (exponential(5)));
 
 
 
-/*for (let i = 0; i < 100; i++) {
+/*  for (let i = 0; i < 100; i++) {
   console.log("The count is: " + counter);
 }
 
@@ -31,4 +38,4 @@ The exponential of 10 is 100
 The exponential of 12 is 144
 The exponential of 14 is 196
 The exponential of 16 is 256
-The exponential of 18 is 324*/
+The exponential of 18 is 324*/ 
