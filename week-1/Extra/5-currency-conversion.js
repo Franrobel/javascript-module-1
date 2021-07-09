@@ -9,7 +9,6 @@ function convertToUSD(price) {
   var priceUSD = price * 1.4;
   return priceUSD;
 }
-console.log(convertToUSD(32));
 /*
   CURRENCY FORMATTING
   ===================
@@ -25,7 +24,6 @@ function convertToBRL(price) {
   return bzMarket
   
 }
-console.log(convertToBRL(30));
 const { X509Certificate } = require('crypto');
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.

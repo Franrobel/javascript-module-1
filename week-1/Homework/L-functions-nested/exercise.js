@@ -1,25 +1,23 @@
+function mentorUc(mentor) {
+    var nameUc = mentor.toUpperCase();   
+    return nameUc
+  //devuelve valor, no variable reutilizable
+}
+function greetingMentor(mentor, greeting) {
+    var greeting = greeting.toUpperCase() + " " + mentorUc(mentor);   
+    return greeting;
+}
 var mentor1 = "Daniel";
 var mentor2 = "Irina";
 var mentor3 = "Mimi";
 var mentor4 = "Rob";
 var mentor5 = "Yohannes";
 
-function mentorUc(mentor){
-    var nameUc = mentor.toUpperCase();
-    return nameUc;
-}
-console.log(mentorUc("daniel"));
-
-function greetingMentor (mentor, greeting){
-    var greeting = (greeting + " " + mentor).toUpperCase();
-    
-    return greeting;
-}
-console.log(greetingMentor("daniel", "hello"));
-console.log(greetingMentor("irina", "hello"));
-console.log(greetingMentor("mimi", "hello"));
-console.log(greetingMentor("rob", "hello"));
-console.log(greetingMentor("Yohannes", "hello"));
+console.log(greetingMentor(mentor1, "hello"));
+console.log(greetingMentor(mentor2, "hello"));
+console.log(greetingMentor(mentor3, "hello"));
+console.log(greetingMentor(mentor4, "hello"));
+console.log(greetingMentor(mentor5, "hello"));
 
 /*- In `exercise2.js` you have been provided with the names of some mentors. Write a program that logs a shouty
  greeting to each one.

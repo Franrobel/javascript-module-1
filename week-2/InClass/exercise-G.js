@@ -3,7 +3,7 @@ let countdown = 8;
 
 while (countdown >= 1){  
     console.log(countdown);
-    countdown -= 1; /*le resta al valor del countdown del loop while*/
+    countdown--; /*le resta al valor del countdown del loop while*/
 }
 console.log(countdown);/*sin este console.log no me devolveria el countdown -= 1 (8-1=7, 7-1=6 ... 1-1=0 FIN seria infinito*/
   console.log(apolloCountdownMessage);

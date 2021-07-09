@@ -14,7 +14,6 @@ function numAndExponential(){
           console.log("The exponencial of " + num + " is " + (exponential(num)));
         }
     }
-
   }
 
 numAndExponential();
