@@ -4,11 +4,17 @@
 //console.log the birth years array
 
 function ageOfSome(birthYear){
+
     return 2021 - birthYear;
 }
-
 const yearsWereBorn = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
+
 const agesWereBorn = yearsWereBorn.forEach(function (birthYear) {console.log(2021 -birthYear);}); 
 
 console.log(yearsWereBorn);
 console.log(agesWereBorn)
+
+/*const getAge = (birthYear) => 2021 - birthYear;
+const yearsWereBorn = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
+const peopleAges = yearsWereBorn.map(getAge);
+console.log(peopleAges)*/
