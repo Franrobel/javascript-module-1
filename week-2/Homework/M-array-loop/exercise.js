@@ -13,3 +13,16 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+function showDaysOfWeek (arrayOfString) {
+  for (i=0; i < arrayOfString.length ; i++){
+    if(arrayOfString[i].startsWith('T')){
+    console.log(arrayOfString[i])
+    }
+  }
+}
+showDaysOfWeek(daysOfWeek);
+/*function arrayStrings(arr) {
+  const = arr;
+  return daysOfWeek.startsWith('Sat');
+}
+console.log(arrayStrings(arr))*/
