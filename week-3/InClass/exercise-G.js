@@ -15,7 +15,7 @@ const birthYears = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
 
 function yearsOfDrivers (birthYears) {
  if (2021 - birthYears >= 17){
-     return (`These are the birth years of people who can drive: ${birthYears}`);} }
+     console.log(`These are the birth years of people who can drive: ${birthYears}`);} }
 
  const filteredyears = birthYears.filter(yearsOfDrivers)
   
