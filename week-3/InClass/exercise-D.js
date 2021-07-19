@@ -17,5 +17,6 @@ function magician(yourFunc) {
   }
  
   
-  const arraysUpperNa = namesArray => namesArray.map((names) => names.toUpperCase()).sort()
+  const arraysUpperNa = juana => juana.map((names) => names.toUpperCase()).sort()
   console.log(magician(arraysUpperNa))
+  
