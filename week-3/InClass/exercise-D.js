@@ -11,6 +11,7 @@ function magician(yourFunc) {
     "Antigoni",
   ];
 
+<<<<<<< HEAD
   const magicOutput = yourFunc(namesArray);
 
   return magicOutput;
@@ -19,3 +20,12 @@ function magician(yourFunc) {
 
 const arraysUpperNa = juana => juana.map((names) => names.toUpperCase()).sort()
 console.log(magician(arraysUpperNa))
+=======
+    return magicOutput;
+  }
+ 
+  
+  const arraysUpperNa = juana => juana.map((names) => names.toUpperCase()).sort()
+  console.log(magician(arraysUpperNa))
+  
+>>>>>>> dafac4ce44fe6f39b5cc92b5403dabd4e37a6687

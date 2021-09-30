@@ -3,15 +3,17 @@
 //Take this array and create another array containing their ages.
 //console.log the birth years array
 
-function ageOfSome(birthYear){
 
-    return 2021 - birthYear;
-}
 const yearsWereBorn = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
 
+<<<<<<< HEAD
 const agesWereBorn = yearsWereBorn.forEach(birthYear => 2021 -birthYear))
+=======
+const agesWereBorn = yearsWereBorn.map((birthYear) => 2021 -birthYear);
+>>>>>>> dafac4ce44fe6f39b5cc92b5403dabd4e37a6687
 console.log(yearsWereBorn);
 console.log(agesWereBorn)
+
 
 /*const getAge = (birthYear) => 2021 - birthYear;
 const yearsWereBorn = [1964, 2008, 1999, 2005, 1978, 1985, 1919];

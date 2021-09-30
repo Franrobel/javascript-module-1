@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 //This function does not need to be modified. Can you pass in a callback function which will mutate namesArray 
 //such that it: Upper cases all letters in the array
+=======
+//This function does not need to be modified. Can you pass in a callback function which will mutate namesArray such that it:
+//Upper cases all letters in the array
+>>>>>>> dafac4ce44fe6f39b5cc92b5403dabd4e37a6687
 function magician(yourFunc) {
   console.log(
     "I am magician! Watch as I mutate an array of strings to your heart's content!"
@@ -18,6 +23,7 @@ function magician(yourFunc) {
  
 function UpperCaseArr (array){
 return array.map(name => name.toUpperCase())}
+<<<<<<< HEAD
 
 console.log(magician(UpperCaseArr))
 
@@ -44,14 +50,8 @@ console.log(upperNames)
   const tidyMentors = mentors.map(tidy)         //la funcion ahora esta dentro de el argumento de map,              
                            // eso es CALL BACK FUNCTION
                                                            //const numbersDoubled = numbers.map(double);
+=======
+>>>>>>> dafac4ce44fe6f39b5cc92b5403dabd4e37a6687
 
-  console.log(mentors)
-  console.log(tidyMentors)
+console.log(magician(UpperCaseArr))
 
-  // FIN
- /*function double(numbers){
-     return numbers * 2;
- }
-  const numbers = [1, 2, 3];
-const numbersDoubled = numbers.map(double);
-console.log(numbersDoubled);*/
