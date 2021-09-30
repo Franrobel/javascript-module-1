@@ -9,8 +9,7 @@ function ageOfSome(birthYear){
 }
 const yearsWereBorn = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
 
-const agesWereBorn = yearsWereBorn.forEach(function (birthYear) {console.log(2021 -birthYear);}); 
-
+const agesWereBorn = yearsWereBorn.forEach(birthYear => 2021 -birthYear))
 console.log(yearsWereBorn);
 console.log(agesWereBorn)
 

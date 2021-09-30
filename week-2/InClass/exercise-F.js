@@ -6,7 +6,7 @@ it must return "Username valid";
 3 otherwise, it must return "Username invalid"
 if the user type is an admin or a manager, all usernames must return "Username valid"*/
 
-function validUser(userName){
+function validUser(userName){//no logro usar 
     if (userName.length > 5 && userName.length < 10 && userName.charAt(0) === userName.charAt(0).toUpperCase()){
         return `Username Valid`;
     } else {

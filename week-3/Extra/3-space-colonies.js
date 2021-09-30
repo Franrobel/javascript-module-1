@@ -8,7 +8,9 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
+function colonisers(voyagers) {
+  voyagers.every(familyStay => familyStay === 'family')
+
 
 }
 

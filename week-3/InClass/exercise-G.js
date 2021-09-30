@@ -3,8 +3,9 @@ const testScores = [90, 50, 100, 66, 25, 80, 81];
 function isHighScore(score) {
     return score > 80;
   }
-const highTestScores = testScores.filter(isHighScore);
-console.log(highTestScores); --> LOGS ->(3) [90, 100, 81]*/
+const highTestScores = testScores.filter(isHighScore);  testscores.filter(score => score > 80)
+                                       calling function                    impicit function
+console.log(highTestScores); --> LOGS ->(3) [90, 100, 81]  */
 
 //Create a function which:
 //Takes an array of birthYears
@@ -15,9 +16,11 @@ const birthYears = [1964, 2008, 1999, 2005, 1978, 1985, 1919];
 
 function yearsOfDrivers (birthYears) {
  if (2021 - birthYears >= 17){
-     console.log(`These are the birth years of people who can drive: ${birthYears}`);} }
+     return `These are the birth years of people who can drive: ${birthYears}`;} }
 
  const filteredyears = birthYears.filter(yearsOfDrivers)
   
 
-    console.log(filteredyears)
+    console.log(`These are the birth years of people who can drive: ${filteredyears}`)
+
+    // SI USO CONSOLE.LOG EN FUNCION. Y EL CONSOLE.LOG FINAL SOLO PONGO LA CONSTANT ME DEVUELVE EL ARRAY CON LAS FECHAS 

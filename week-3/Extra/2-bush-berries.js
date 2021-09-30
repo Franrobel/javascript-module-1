@@ -10,7 +10,12 @@
   Use the tests to confirm which message to return
 */
 
-function bushChecker() {
+function bushChecker(bushTest) {
+    if (bushTest.every(bushTest => bushTest === 'pink')){
+  return "Bush is safe to eat from"
+    } else {
+    return "Toxic! Leave bush alone!"    
+    }
 
 }
 

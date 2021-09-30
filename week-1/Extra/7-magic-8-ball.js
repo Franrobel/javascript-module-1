@@ -45,7 +45,9 @@ Very doubtful.
 
 // This should log "The ball has shaken!"
 // and return the answer.
-function shakeBall() {
+function shakeBall(answer) {
+  console.log(`The ball has shaken`)
+  return answer
 }
 
 // This function should say whether the answer it is given is
@@ -55,6 +57,7 @@ function shakeBall() {
 // - very negative
 // This function should expect to be called with any value which was returned by the shakeBall function.
 function checkAnswer(answer) {
+  
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
