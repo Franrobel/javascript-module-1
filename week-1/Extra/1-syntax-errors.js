@@ -11,11 +11,10 @@ return "Hello, my name is " + name + " and I am " + age + " years old";
 console.log(introduceMe('Jorge', 29));
 
 function getTotal(a, b) {
-    total = a + b;
+  return `The total is ${a + b}`;
     // Use string interpolation here
-    return `The total is ${total}`;
 }
-console.log("The total is ${total}");
+console.log(getTotal(23, 5));
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.

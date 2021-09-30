@@ -6,8 +6,8 @@
 // write your code here
 
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
-
-var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+//EN ESTE CASO JUSTO EL PRIMERO MAYOR DE 7 ES ALEXANDRA, COMO HARIA PARA BUSCAR POR LA PRIMERA LETRA 
+var longNameThatStartsWithA = names.find(name => name.startsWith('A') && name.length > 7 ) ;
 
 console.log(longNameThatStartsWithA);
 

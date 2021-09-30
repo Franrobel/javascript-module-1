@@ -6,17 +6,29 @@
   - Do not edit any of the existing code
 */
 
-var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
+var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"]
 
-var pairsByIndex; // Complete this statement
-
+function pairsOrNot(pairs) {
+    var result = pairs.filter((pair) => Array.isArray(pair) && pair.length ===2 )
+    return result
+}
+ 
+//var pairs = pairs.filter(pair => array.isArray(pair) && pair.length === 2);// Complete this statement
+var pairsByIndex = pairsOrNot(pairsByIndexRaw)
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
-
-var pairs = pairsByIndex.map(function(indexes) {
+console.log('pairsByindex', pairsByIndex);
+var pairs = pairsByIndex.map((indexes) => {
   var student = students[indexes[0]];
   var mentor = mentors[indexes[1]];
   return [student, mentor];
 });
 
 console.log(pairs);
+
+/*var testScores = [90, 50, 100, 66, 25, 80, 81];
+function isHighScore(score) {
+  return score >= 80;
+}
+var greaterEighty = testScores.filter(isHighScore);// filter me da un nuevo array con los valores que me da la funcion isHighScores
+console.log(greaterEighty)*/
