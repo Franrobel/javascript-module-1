@@ -32,6 +32,3 @@ function forEach (lista, fn) {
         fn(lista[i])
     }
 }
-
-console.log(numbers, item => item * 100)
-forEach(numbers, item => console.log(item))

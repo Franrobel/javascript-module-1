@@ -6,8 +6,8 @@
   - Do not edit any of the existing code
 */
 
-var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"]
-
+var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"].push([3, 0])
+console.log(pairsByIndexRaw);
 function pairsOrNot(pairs) {
     var result = pairs.filter((pair) => Array.isArray(pair) && pair.length ===2 )
     return result
